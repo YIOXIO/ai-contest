@@ -1,0 +1,8 @@
+/* /* Шрифты, переменные, глобальные стили*/
+@import './vendors/normalize.css';
+@import './styles/globals.css';
+@import './styles/variables.css';
+@import './vendors/fonts/fonts.css'; 
+
+/* TEKTUR 400, 700, 500 */
+/* Mozer-Trial 400, 200, 300, 700 */
