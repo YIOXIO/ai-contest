@@ -1,0 +1,8 @@
+.info__title{
+    color: var(--secondary-text-color);
+    font-size: clamp(1.5rem, 1.409rem + 0.45vw, 1.75rem);
+    font-weight: var(--bold-weight);
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-block-end: 11px;
+}

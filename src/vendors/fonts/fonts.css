@@ -1,36 +1,65 @@
-/* @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-Medium.eot');
-    src: local('Inter Medium'), local('Inter-Medium'),
-        url('../fonts/Inter/Inter-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Inter/Inter-Medium.woff2') format('woff2'),
-        url('../fonts/Inter/Inter-Medium.woff') format('woff'),
-        url('../fonts/Inter/Inter-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-} */
-
-
 @font-face {
-    font-family: 'Font Over';
-    src: url('../fonts/FontOver/FontOver.eot');
-    src: local('Font Over'), local('Font-Over'),
-        url('../fonts/FontOver/FontOver.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/FontOver/FontOver.woff2') format('woff2'),
-        url('../fonts/FontOver/FontOver.woff') format('woff'),
-        url('../fonts/FontOver/FontOver.ttf') format('truetype');
-    font-weight: 500;
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur/Tektur-Regular.eot');
+    src: local('Tektur Regular'), local('Tektur-Regular'),
+        url('../fonts/Tektur/Tektur-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur/Tektur-Regular.woff2') format('woff2'),
+        url('../fonts/Tektur/Tektur-Regular.woff') format('woff'),
+        url('../fonts/Tektur/Tektur-Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
-}
-
-
-@font-face {
     font-display: swap;
-    font-family: 'Inter-Variable';
-    src:
-      local('Inter-Variable'),
-      url('../fonts/Inter-Variable/Inter-Variable.woff2') format('woff2 supports variations'),
-          url('../fonts/Inter-Variable/Inter-Variable.woff2') format('woff2-variations');
-    font-weight: 400 785;
 }
 
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur/Tektur-Medium.eot');
+    src: local('Tektur Medium'), local('Tektur-Medium'),
+        url('../fonts/Tektur/Tektur-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur/Tektur-Medium.woff2') format('woff2'),
+        url('../fonts/Tektur/Tektur-Medium.woff') format('woff'),
+        url('../fonts/Tektur/Tektur-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tektur';
+    src: url('../fonts/Tektur/Tektur-Bold.eot');
+    src: local('Tektur Bold'), local('Tektur-Bold'),
+        url('../fonts/Tektur/Tektur-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tektur/Tektur-Bold.woff2') format('woff2'),
+        url('../fonts/Tektur/Tektur-Bold.woff') format('woff'),
+        url('../fonts/Tektur/Tektur-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Mozer';
+    src: url('../fonts/Mozer/MozerThin.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mozer';
+    src: url('../fonts/Mozer/MozerLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mozer';
+    src: url('../fonts/Mozer/MozerRegular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mozer';
+    src: url('../fonts/Mozer/MozerBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}

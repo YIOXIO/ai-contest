@@ -1,0 +1,18 @@
+@import './__title/prizes__title.css';
+
+
+
+.prizes{
+    position: relative;
+    padding-block-start: clamp(4.438rem, 2.165rem + 11.36vw, 10.688rem);
+    overflow: hidden;
+}
+
+.prizes .decoration-element_left{
+    left: 0.4%;
+    top: 37%;
+}
+.prizes .decoration-element_right{
+    right: 0;
+    top: 78%;
+}

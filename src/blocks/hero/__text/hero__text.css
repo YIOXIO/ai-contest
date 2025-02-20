@@ -1,0 +1,8 @@
+.hero__text{
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-weight: var(--main-weight);
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-block-end: 16px;
+}

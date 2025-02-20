@@ -1,0 +1,12 @@
+.info__block-text{
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: clamp(1.75rem, 1.659rem + 0.45vw, 2rem);
+    line-height: 112.5%;
+    max-inline-size: 330px;
+}
+
+.info__block-text>span{
+    font-weight: var(--bold-weight);
+}

@@ -1,0 +1,8 @@
+.hero__subtitle{
+    color: var(--primary-text-color);
+    font-size:clamp(1.771rem, 1.135rem + 3.18vw, 3.521rem);    
+    font-weight: var(--bold-weight);
+    line-height: 121%; 
+    text-transform: uppercase;
+    margin-block-end: 35px;
+}

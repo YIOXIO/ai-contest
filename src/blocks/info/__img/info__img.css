@@ -1,0 +1,6 @@
+.info__img{
+    position: absolute;
+    top: -23%;
+    right: 0;
+    object-fit: scale-down;
+}

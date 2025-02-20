@@ -1,0 +1,12 @@
+.hero__img{
+    inline-size: 100%;
+    max-inline-size: fit-content;
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: scale-down;
+}
+
+.hero__img:first-child{
+    margin-inline-end: clamp(4.375rem, 0.511rem + 19.32vw, 15rem);
+    z-index: 1;
+}

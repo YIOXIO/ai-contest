@@ -1,0 +1,9 @@
+.hero__img-wrap {
+    display: grid;
+        place-items: center;
+        position: absolute;
+        inline-size: fit-content;
+        right: -6.3%;
+        top: 18%;
+        z-index: -1;
+}

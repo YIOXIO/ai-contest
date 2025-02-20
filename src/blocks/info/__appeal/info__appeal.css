@@ -1,0 +1,23 @@
+.info__appeal{
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-family: var(--accent-font);
+    font-size: clamp(1.875rem, 1.648rem + 1.14vw, 2.5rem);
+    font-style: normal;
+    font-weight: var(--bold-weight);
+    line-height: 110%; 
+    margin-inline: auto;
+    position: relative;
+    border-radius: 16px;
+    border: 4px dashed #97770F; 
+    padding-block: 20px 24px;
+    padding-inline: 32px;
+}
+
+.info__appeal::before{
+    content: url('../../../svg/icons/bell-icon.svg');
+    position: absolute;
+    left: 2.3%;
+    top: -38%;
+
+}

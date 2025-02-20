@@ -4,5 +4,31 @@
 @import './styles/variables.css';
 @import './vendors/fonts/fonts.css'; 
 
-/* TEKTUR 400, 700, 500 */
-/* Mozer-Trial 400, 200, 300, 700 */
+/* Стили для контейнера, декоративных элементов, кнопок */
+@import './blocks/container/container.css';
+@import './blocks/primary-button/primary-button.css';
+@import './blocks/decoration-elements/decoration-element.css';
+@import './blocks/decoration-elements/_left/decoration-element_left.css';
+@import './blocks/decoration-elements/_right/decoration-element_right.css';
+
+
+/* Стили для титульной секции */
+@import './blocks/hero/hero.css';
+
+/* Стили для секции с INFO*/
+@import './blocks/info/info.css';
+
+/* Стили для секции Prizes */
+@import './blocks/prizes/prizes.css';
+
+
+.page {
+    min-inline-size: 320px;
+    min-block-size: 100dvb;
+    font-family: var(--main-font);
+    font-weight: var(--main-weight);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    line-height: normal;
+  }

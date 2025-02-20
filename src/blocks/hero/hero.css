@@ -1,0 +1,19 @@
+@import url('./__wrap/hero__wrap.css');
+@import url('./__title/hero__title.css');
+@import url('./__subtitle/hero__subtitle.css');
+@import url('./__text/hero__text.css');
+@import url('./__text-accent/hero__text-accent.css');
+@import url('./__text/_no-margin/hero__text_no-margin.css');
+@import url('./__wrap/_flex/hero__wrap_flex.css');
+@import url('./__img/hero__img.css');
+@import url('./__img-wrap/hero__img-wrap.css');
+@import './__logo/hero__logo.css';
+
+.hero{
+    background-color: #0D2A40;
+    padding-block: clamp(3.438rem, 1.165rem + 11.36vw, 9.688rem) 17px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+

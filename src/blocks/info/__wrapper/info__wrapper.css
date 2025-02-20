@@ -1,0 +1,8 @@
+.info__wrapper{
+    position: relative;
+    margin-block-end: clamp(2.5rem, 0.32rem + 10.9vw, 8.494rem);
+}
+
+.info__wrapper:nth-child(2){
+    margin-block-end: 81px;
+}

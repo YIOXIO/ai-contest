@@ -1,0 +1,54 @@
+.info__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    padding-inline-start: 20px;
+    column-gap: 59px;
+}
+
+.info__list li{
+    max-inline-size: fit-content;
+    position: relative;
+}
+
+.info__list li::after{
+    content: url('../../../svg/decoration-elements/arrow.svg');
+    position: absolute;
+    position: absolute;
+    right: -28%;
+    top: 48%;
+    transform: translate(0, -50%);
+}
+.info__list li:nth-child(2):after{
+    content: url('../../../svg/decoration-elements/arrow.svg');
+    position: absolute;
+    position: absolute;
+    right: -31%;
+    top: 48%;
+    transform: translate(0, -50%);
+}
+
+.info__list li:last-child::after{
+    content: none;
+}
+
+@media (max-width: 768px) {
+    .info__list {
+        grid-template-columns: 1fr; /* Одна колонка на маленьких экранах */
+        padding-inline-start: 0; /* Убираем отступ */
+        column-gap: 10px; /* Уменьшаем зазор */
+    }
+
+    .info__list li::after,
+    .info__list li:nth-child(2):after {
+        content: none; /* Скрываем стрелки на маленьких экранах */
+    }
+
+    .info__block-title {
+        font-size: 18px; /* Уменьшаем размер заголовка */
+    }
+
+    .info__block-text {
+        font-size: 14px; /* Уменьшаем размер текста */
+    }
+
+}

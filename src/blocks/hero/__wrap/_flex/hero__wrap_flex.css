@@ -1,0 +1,7 @@
+.hero__wrap_flex{
+    display: flex;
+    align-items: center;
+    margin-block-start: clamp(3.125rem, 2.602rem + 2.61vw, 4.563rem);
+    gap: clamp(0.5rem, -0.182rem + 3.41vw, 2.375rem);
+
+}

@@ -1,0 +1,23 @@
+.decoration-element_left{
+    top: 0%;
+    left: -12px;
+    right: inherit;
+    z-index: -4;
+}
+
+.decoration-element_left:nth-child(6){
+    top: 27%;
+    left: 0;
+}
+.decoration-element_left:nth-child(7){
+    top: inherit;
+    left: 0;
+    bottom: 0;
+    left: 5px;
+    top: revert-layer;
+    bottom: 19%;
+}
+.decoration-element_left:nth-child(8){
+    top: 9%;
+    left: 0;
+}

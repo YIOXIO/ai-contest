@@ -1,0 +1,9 @@
+.info__block-title{
+    color: var(--secondary-text-color);
+    text-align: center;
+    font-size: 28px;
+    font-weight: var(--bold-weight);
+    line-height: 130%; 
+    text-transform: uppercase;
+    margin-block-end: 14px;
+}

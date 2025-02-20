@@ -1,0 +1,10 @@
+.prizes__title{
+    color: var(--secondary-text-color);
+    font-size: clamp(1.875rem, 1.648rem + 1.14vw, 2.5rem);
+    font-weight: var(--bold-weight);
+    line-height: 130%; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}

@@ -1,0 +1,3 @@
+.hero__logo{
+    inline-size: clamp(9.375rem, 8.33rem + 5.23vw, 12.25rem);
+}

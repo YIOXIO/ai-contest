@@ -1,0 +1,33 @@
+@import './__wrapper/info__wrapper.css';
+@import './__title/info__title.css';
+@import './__text/info__text.css';
+@import './__text-accent/info__text-accent.css';
+@import './__img/info__img.css';
+@import './__list/info__list.css';
+@import './__list-block/info__list-block.css';
+@import './__block-icon/info__block-icon.css';
+@import './__block-text/info__block-text.css';
+@import './__block-title/info__block-title.css';
+@import './__title/_mbe/info__title_mbe.css';
+@import './__appeal/info__appeal.css';
+
+.info{
+    position: relative;
+    padding-block-start: clamp(3.75rem, 0.409rem + 16.7vw, 12.938rem);
+}
+
+.info .decoration-element_left{
+    top:31.9%;
+    left: 0;
+}
+
+.info .decoration-element_right{
+    top: 4.8%;
+    right: 0;
+}
+
+.info .decoration-element_right:nth-child(3){
+    bottom: 14.2%;
+    right: 0;
+    top: revert;
+}

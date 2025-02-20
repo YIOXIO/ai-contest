@@ -1,0 +1,22 @@
+.primary-button{
+    border-radius: 160px;
+    background-image: linear-gradient(90deg, #BAFFFF 4.1%, #3BFFFF 100%);
+    padding-inline: 28px;
+    padding-block: 20px;
+    color: var(--secondary-text-color);    
+    font-size: 20px;
+    font-weight: var(--accent-weight);
+    line-height: 130%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: box-shadow 0.5s ease-in;
+    max-inline-size: 448px;
+    inline-size: 100%;
+}
+
+.primary-button:hover {
+    box-shadow: 0 0px 16px #3BFFFF;
+    transition: box-shadow 0.5s ease-in-out;
+    
+}
