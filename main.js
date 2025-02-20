@@ -1,0 +1,1 @@
+(()=>{"use strict";function n(n){var t=.1+(window.innerWidth-320)/1120*.9;n.style.opacity=Math.min(Math.max(t,.1),1)}document.querySelectorAll(".opacity").forEach((function(t){n(t),window.addEventListener("load",(function(){return n(t)})),window.addEventListener("resize",(function(){return n(t)}))}))})();
