@@ -19,3 +19,5 @@ document.querySelectorAll('.opacity').forEach(element => {
     window.addEventListener('load', () => setOpacity(element));
     window.addEventListener('resize', () => setOpacity(element));
 })
+
+

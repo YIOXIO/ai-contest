@@ -18,6 +18,7 @@
     content: url('../../../svg/icons/bell-icon.svg');
     position: absolute;
     left: 2.3%;
-    top: -38%;
+    top: clamp(-3rem, -1.636rem + -1.82vw, -2rem);
+    inline-size: clamp(3.375rem, -4.018rem + 12.86vw, 5.625rem);
 
 }

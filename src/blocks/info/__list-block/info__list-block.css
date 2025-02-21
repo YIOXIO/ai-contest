@@ -4,3 +4,12 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media (width <= 810px){
+    .info__list-block{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+        
+}

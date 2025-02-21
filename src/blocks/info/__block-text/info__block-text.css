@@ -10,3 +10,10 @@
 .info__block-text>span{
     font-weight: var(--bold-weight);
 }
+
+
+@media (width <= 810px){
+    .info__block-text{
+        max-inline-size: 400px;
+    }
+}

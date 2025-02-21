@@ -32,3 +32,10 @@
     overflow-x: hidden;
     line-height: normal;
   }
+
+
+  .footer{
+    background-color: var(--bg-color);
+  }
+
+  
