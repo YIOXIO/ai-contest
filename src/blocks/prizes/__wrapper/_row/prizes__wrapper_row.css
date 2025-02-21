@@ -1,0 +1,6 @@
+.prizes__wrapper_row{
+    flex-direction: row;
+    max-inline-size: 1200px;
+    gap: 71px;
+    justify-content: flex-end;
+}

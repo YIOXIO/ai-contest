@@ -1,0 +1,9 @@
+.prizes__span-accent{
+    color: var(--secondary-color-accent);
+    font-family: var(--accent-font);
+    font-size: 43.243px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 51.892px; /* 120% */
+    text-transform: uppercase;
+}

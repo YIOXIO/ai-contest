@@ -1,0 +1,10 @@
+.prizes__text{
+    color: var(--secondary-text-color);
+    font-size: 40px;
+    font-style: normal;
+    font-family: var(--accent-font);
+    font-weight: var(--bold-weight);
+    line-height: 110%; 
+    text-align: right;
+}
+

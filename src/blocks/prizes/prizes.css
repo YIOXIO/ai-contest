@@ -1,6 +1,16 @@
 @import './__title/prizes__title.css';
-
-
+@import './__text/prizes__text.css';
+@import './__span-accent/prizes__span-accent.css';
+@import './__icon/prizes__icon.css';
+@import './__number/prizes__number.css';
+@import './__wrapper/prizes__wrapper.css';
+@import './__text/_wght-300/prizes__text_wght-300.css';
+@import './__text-wrapper/prizes__text-wrapper.css';
+@import './__text/_center/prizes__text_center.css';
+@import './__grid/prizes__grid.css';
+@import './__img/_absolute/prizes__img_absolute.css';
+@import './__text/_left/prizes__text_left.css';
+@import './__wrapper/_row/prizes__wrapper_row.css';
 
 .prizes{
     position: relative;
@@ -10,7 +20,7 @@
 
 .prizes .decoration-element_left{
     left: 0.4%;
-    top: 37%;
+    top: 5.6%;
 }
 .prizes .decoration-element_right{
     right: 0;

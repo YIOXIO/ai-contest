@@ -1,0 +1,11 @@
+.prizes__text-wrapper{
+    align-items: center;
+    border: 4px dashed #97770f;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 18px 13px;
+    padding-inline: 51px 44px;
+    transform: translate(2px, -17px);
+}

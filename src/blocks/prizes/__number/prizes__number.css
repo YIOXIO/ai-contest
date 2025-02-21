@@ -1,0 +1,9 @@
+.prizes__number{
+    color: #0D2A40;
+    font-family: var(--accent-font);
+    font-size: 151.352px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1; 
+}

@@ -1,0 +1,6 @@
+.prizes__icon{
+    max-inline-size: 100px;
+    inline-size: 100%;
+    object-fit: contain;
+    transform: translate(26px, -11px);
+}
