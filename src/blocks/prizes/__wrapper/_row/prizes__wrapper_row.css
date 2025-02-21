@@ -3,4 +3,7 @@
     max-inline-size: 1200px;
     gap: 71px;
     justify-content: flex-end;
+    grid-column: span 2;
+    padding-block-start: 120px;
+    align-items: center;
 }
