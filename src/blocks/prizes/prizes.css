@@ -8,9 +8,13 @@
 @import './__text-wrapper/prizes__text-wrapper.css';
 @import './__text/_center/prizes__text_center.css';
 @import './__grid/prizes__grid.css';
-@import './__img/_absolute/prizes__img_absolute.css';
 @import './__text/_left/prizes__text_left.css';
 @import './__wrapper/_row/prizes__wrapper_row.css';
+@import './__wrapper/_left/prizes__wrapper_left.css';
+@import './__wrapper/_mbe/prizes__wrapper_mbe.css';
+@import './__img/prizes__img.css';
+@import './__img/_absolute/prizes__img_absolute.css';
+@import './__list/prizes__list.css';
 
 .prizes{
     position: relative;

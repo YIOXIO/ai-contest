@@ -1,0 +1,8 @@
+.prizes__wrapper_left{
+    align-items: start;
+    flex-direction: row;
+    max-inline-size: 100%;
+    gap: 54px;
+}
+
+

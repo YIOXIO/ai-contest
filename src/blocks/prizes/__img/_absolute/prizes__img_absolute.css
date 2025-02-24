@@ -1,6 +1,9 @@
 .prizes__img_absolute{
     position: absolute;
-    right: -10.3%;
-    top: 18.3%;
+    left: revert;
+    right: -8rem;
+    top: 0;
     z-index: -1;
+    transform: translateY(-16rem);
 }
+

@@ -21,3 +21,22 @@ document.querySelectorAll('.opacity').forEach(element => {
 })
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const buttons = document.querySelectorAll('.prizes__accordion-button');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function () {
+            const content = this.nextElementSibling;
+
+            // Закрываем все открытые блоки
+            document.querySelectorAll('.prizes__accordion-content').forEach(item => {
+                if (item !== content) {
+                    item.classList.remove('active');
+                }
+            });
+
+            // Открываем/закрываем текущий блок
+            content.classList.toggle('active');
+        });
+    });
+});

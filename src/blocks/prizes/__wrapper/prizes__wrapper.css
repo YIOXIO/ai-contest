@@ -1,11 +1,7 @@
 .prizes__wrapper{
-    max-inline-size: 477px;
+    /* max-inline-size: 477px; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
-
-.prizes__wrapper_left{
-    align-items: start;
-    transform: translateX(-6rem);
+    position: relative;
 }

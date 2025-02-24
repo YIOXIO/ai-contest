@@ -1,0 +1,10 @@
+.prizes__wrapper_mbe{
+    margin-block-end: 70px;
+}
+
+
+@media (width < 768px){
+    .prizes__wrapper_mbe{
+        margin-block: 90px;
+    }
+}
