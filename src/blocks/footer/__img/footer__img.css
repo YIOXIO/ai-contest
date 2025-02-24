@@ -1,0 +1,7 @@
+.footer__img{
+    right: -10.4rem;
+    z-index: -1;
+    object-fit: contain;
+    bottom: -7.2rem;
+    position: absolute;
+}

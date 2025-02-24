@@ -16,6 +16,7 @@
     position: relative;
     padding-block-start: clamp(4.438rem, 2.165rem + 11.36vw, 10.688rem);
     overflow: hidden;
+    margin-block-end: 184px;
 }
 
 .prizes .decoration-element_left{

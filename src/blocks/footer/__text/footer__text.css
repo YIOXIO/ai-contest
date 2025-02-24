@@ -1,0 +1,13 @@
+.footer__text{
+    color: #FFF;
+    font-family: var(--accent-font);
+    font-size: clamp(1.875rem, 1.648rem + 1.14vw, 2.5rem);
+    font-style: normal;
+    line-height: 44px;
+    margin-block-end: 14px;
+}
+
+
+.footer__text:nth-child(3){
+    margin-block-end: 70px;
+}

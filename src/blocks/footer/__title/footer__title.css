@@ -1,0 +1,9 @@
+.footer__title{
+    color: #FFF;
+    font-size: clamp(1.875rem, 1.648rem + 1.14vw, 2.5rem);
+    font-style: normal;
+    font-weight: var(--bold-weight);
+    line-height: 130%; 
+    text-transform: uppercase;
+    margin-block-end: 34px;
+}

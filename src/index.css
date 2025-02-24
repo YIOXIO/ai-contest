@@ -22,6 +22,8 @@
 @import './blocks/prizes/prizes.css';
 
 
+@import './blocks/footer/footer.css';
+
 .page {
     min-inline-size: 320px;
     min-block-size: 100dvb;
@@ -33,9 +35,3 @@
     line-height: normal;
   }
 
-
-  .footer{
-    background-color: var(--bg-color);
-  }
-
-  
