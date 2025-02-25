@@ -1,17 +1,3 @@
-/* 
-@media (width >= 625px){
-    .prizes__img{
-        display: block;
-    }
-
-    .prizes__img_mobile{
-        display: none;
-        position: inherit;
-    }
-
-} */
-
-
 @media (width <= 650px){
     .prizes__img {
         display: none;
