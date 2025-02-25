@@ -6,3 +6,15 @@
         background-repeat: no-repeat;
     }
   }
+
+  .prizes__list > li:nth-child(1){
+    flex-direction: row;
+    max-inline-size: 100%;
+    align-items: center;
+    gap: 70px;
+    justify-content: start;
+    padding: 0;
+    padding-inline-start: clamp(0rem, -2.341rem + 11.7vw, 6.438rem);
+    margin-block-end: 89px;
+
+}

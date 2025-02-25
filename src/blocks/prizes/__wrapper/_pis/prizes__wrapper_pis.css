@@ -1,8 +1,4 @@
 
-.prizes__wrapper_pis{
-    padding-inline-end: clamp(0rem, -1.136rem + 5.68vw, 3.125rem);
-}
-
 .prizes__wrapper_pis .prizes__text_center{
-    font-size: 32px;
+    font-size: 28px;
 }
