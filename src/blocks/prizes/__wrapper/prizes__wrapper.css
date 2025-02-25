@@ -5,3 +5,10 @@
     align-items: flex-end;
     position: relative;
 }
+
+
+@media (width <= 650px){
+    .prizes__wrapper{
+        display: block;
+    }
+}

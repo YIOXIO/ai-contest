@@ -21,6 +21,9 @@
         display: block;
         position: inherit;
         inline-size: 100%;
+        object-fit: contain;
+        max-inline-size: 560px;
+        max-block-size: 320px;
     }
 }
 
