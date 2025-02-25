@@ -3,7 +3,7 @@
     max-inline-size: 1200px;
     gap: 71px;
     justify-content: flex-end;
-    padding-block-start: 112px;
+    padding-block-start: clamp(2rem, 0.182rem + 9.09vw, 7rem);
     align-items: center;
 }
 

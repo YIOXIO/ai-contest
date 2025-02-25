@@ -1,9 +1,39 @@
-
-
-@media (width <= 768px){
+/* 
+@media (width >= 625px){
     .prizes__img{
-        position: absolute;
-        bottom: 0;
-        z-index: -1;
+        display: block;
+    }
+
+    .prizes__img_mobile{
+        display: none;
+        position: inherit;
+    }
+
+} */
+
+
+@media (width <= 650px){
+    .prizes__img {
+        display: none;
+    }
+
+    .prizes__img_mobile{
+        display: block;
+        position: inherit;
+        inline-size: 100%;
     }
 }
+
+
+@media (width >= 651px){
+    .prizes__img {
+        display: block;
+    }
+
+    .prizes__img_mobile{
+        display: none;
+        position: inherit;
+    }
+}
+
+

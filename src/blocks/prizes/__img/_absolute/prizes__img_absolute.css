@@ -7,3 +7,9 @@
     transform: translateY(-16rem);
 }
 
+@media (width <= 650px){
+    .prizes__img_absolute {
+        display: block;
+    }
+}
+

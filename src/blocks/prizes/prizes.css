@@ -15,6 +15,7 @@
 @import './__img/prizes__img.css';
 @import './__img/_absolute/prizes__img_absolute.css';
 @import './__list/prizes__list.css';
+@import './__wrapper/_pis/prizes__wrapper_pis.css';
 
 .prizes{
     position: relative;
